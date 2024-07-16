@@ -114,17 +114,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory>
-        <ListPreference
-            app:defaultValue="@string/theme_default"
-            app:entries="@array/theme_array"
-            app:entryValues="@array/theme_index_array"
-            app:icon="@drawable/ic_color_lens"
-            app:key="@string/theme_key"
-            app:persistent="true"
-            app:summary="@string/theme_summary"
-            app:useSimpleSummaryProvider="true"
-            app:title="@string/theme_title"/>
-
         <androidx.preference.SwitchPreferenceCompat
             app:defaultValue="@bool/wifi_off_on_exit_default"
             app:icon="@drawable/ic_signal_wifi_off"
@@ -140,7 +129,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory>
-        <com.vrem.wifianalyzer.settings.CountryPreference
+        <com.veea.wifianalyzer.settings.CountryPreference
             app:icon="@drawable/ic_location_on"
             app:key="@string/country_code_key"
             app:persistent="true"
@@ -148,7 +137,7 @@
             app:useSimpleSummaryProvider="true"
             app:title="@string/country_code_title" />
 
-        <com.vrem.wifianalyzer.settings.LanguagePreference
+        <com.veea.wifianalyzer.settings.LanguagePreference
             app:icon="@drawable/ic_language"
             app:key="@string/language_key"
             app:persistent="true"

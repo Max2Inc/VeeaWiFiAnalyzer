@@ -40,4 +40,7 @@
     <color name="success">#4CAF50</color>
     <!-- background -->
     <color name="background">#616161</color>
+
+    <!-- splash background -->
+    <color name="background_slash">#FAF9F6</color>
 </resources>

@@ -31,6 +31,7 @@
     <style name="ThemeLight" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
         <item name="android:actionMenuTextColor">@color/selected</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
     <style name="ThemeLightNoActionBar" parent="ThemeLight">
@@ -54,7 +55,7 @@
     </style>
 
     <style name="ThemeSplash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenBackground">@color/background_slash</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_inset</item>
         <item name="windowSplashScreenAnimationDuration">500</item>
     </style>
@@ -62,5 +63,15 @@
     <style name="WindowAnimationTransition">
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
         <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="MyToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">@android:color/black</item>
+        <item name="android:background">@color/background_slash</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
     </style>
 </resources>

@@ -20,7 +20,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="@dimen/nav_header_height"
-              android:background="@color/background"
+              android:background="@color/background_slash"
               android:gravity="bottom"
               android:orientation="horizontal"
               android:paddingBottom="@dimen/activity_vertical_margin"
@@ -29,11 +29,11 @@
               android:paddingTop="@dimen/activity_vertical_margin">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
         android:contentDescription="@null"
         android:layout_gravity="bottom"
-        android:src="@drawable/ic_app"/>
+        android:src="@drawable/ic_splash"/>
 
     <TextView
         android:layout_width="match_parent"

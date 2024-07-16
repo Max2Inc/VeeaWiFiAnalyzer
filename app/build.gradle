@@ -54,7 +54,7 @@ dependencies {
 }
 
 android {
-    namespace 'com.vrem.wifianalyzer'
+    namespace 'com.veea.wifianalyzer'
     compileSdk 33
     buildToolsVersion '34.0.0'
 
@@ -63,7 +63,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.vrem.wifianalyzer"
+        applicationId "com.veea.wifianalyzer"
         minSdkVersion 23
         targetSdkVersion 33
         versionCode
@@ -119,7 +119,7 @@ android {
 }
 
 allOpen {
-    annotation("com.vrem.annotation.OpenClass")
+    annotation("com.veea.annotation.OpenClass")
 }
 
 // keystore -------------------------------------------------

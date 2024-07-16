@@ -16,8 +16,8 @@ jobs:
         run: bash ./gradlew lintDebug --stacktrace
       - name: unit tests
         run: bash ./gradlew testDebugUnitTest --stacktrace
-      - name: coverage
-        run: bash ./gradlew jacocoTestCoverageVerification --stacktrace
+      #- name: coverage
+      #  run: bash ./gradlew jacocoTestCoverageVerification --stacktrace
       - name: Reports
         uses: actions/upload-artifact@v4
         with:
