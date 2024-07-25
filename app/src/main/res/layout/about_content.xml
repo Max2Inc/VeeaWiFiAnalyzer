@@ -219,11 +219,13 @@
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:text="@string/about_description_title"
+                android:visibility="gone"
                 android:textStyle="italic" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:text="@string/about_description_text" />
 
             <TextView
@@ -279,6 +281,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:visibility="gone"
                 android:text="@string/about_contributor_title" />
 
             <Button
@@ -286,6 +289,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:visibility="gone"
                 android:text="@string/about_write_review" />
 
             <TextView

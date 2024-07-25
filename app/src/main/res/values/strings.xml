@@ -47,7 +47,7 @@
 
     <string name="no_data">"No Data"</string>
     <string name="no_data_msg">"Please visit frequently ask questions section on our website."</string>
-    <string name="no_data_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#faq"</string>
+    <string name="no_data_url" translatable="false">"https://max2inc.github.io/VeeaWiFiAnalyzer/#faq"</string>
     <string name="permission_msg">"As of Android Marshmallow, location permissions are required to perform a Wi-Fi scan. You will be prompted to enable location services/permissions. Since this app does not require internet access, you can be confident that this app cannot transmit your location!"</string>
     <string name="location_msg">"This app can get your precise location from location services while the app is in use. Location services for your device must be turned on for the app to get location. This may increase battery usage."</string>
     <string name="throttling_msg">"Android 9 introduced Wi-Fi scan throttling. Android 10 has a new developer option to toggle the throttling off under (Settings > Developer Options > Networking > Wi-Fi scan throttling)."</string>
@@ -165,20 +165,20 @@
     <!-- about start -->
     <string name="about_license_title">"License:"</string>
     <string name="about_description_title">"Description:"</string>
-    <string name="about_description_text">"Optimize your Wi-Fi network, by checking Wi-Fi network status, signal strength and identifying crowded channels using an open-source WiFiAnalyzer for Android"</string>
+    <string name="about_description_text">"Optimize your Wi-Fi network, by checking Wi-Fi network status, signal strength and identifying crowded channels using an open-source VeeaWiFiAnalyzer for Android"</string>
     <string name="about_libraries_title">"Libraries Used:"</string>
     <string name="about_library_graph_view" translatable="false">"Graph View"</string>
     <string name="about_library_graph_view_url" translatable="false">"http://www.android-graphview.org"</string>
     <string name="about_library_material" translatable="false">"Material Design Icons"</string>
     <string name="about_library_material_url" translatable="false">"https://design.google.com/icons"</string>
     <string name="about_usage_tips" translatable="false">"Usage Tips:"</string>
-    <string name="about_usage_tips_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#usage-tips"</string>
+    <string name="about_usage_tips_url" translatable="false">"https://max2inc.github.io/VeeaWiFiAnalyzer/#usage-tips"</string>
     <string name="about_how_to" translatable="false">"How-to:"</string>
-    <string name="about_how_to_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#how-to"</string>
+    <string name="about_how_to_url" translatable="false">"https://max2inc.github.io/VeeaWiFiAnalyzer/#how-to"</string>
     <string name="about_faq" translatable="false">"FAQ:"</string>
-    <string name="about_faq_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#faq"</string>
+    <string name="about_faq_url" translatable="false">"https://max2inc.github.io/VeeaWiFiAnalyzer/#faq"</string>
     <string name="about_privacy_policy" translatable="false">"Privacy Policy:"</string>
-    <string name="about_privacy_policy_url" translatable="false">"https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/#privacy-policy"</string>
+    <string name="about_privacy_policy_url" translatable="false">"https://max2inc.github.io/VeeaWiFiAnalyzer/#privacy-policy"</string>
     <string name="about_contributor_title">"Contributors"</string>
     <string name="about_write_review">"Write a Review"</string>
     <string name="about_port_authority_url" translatable="false">https://github.com/aaronjwood/PortAuthority</string>
