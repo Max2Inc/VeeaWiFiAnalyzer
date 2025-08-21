@@ -63,7 +63,7 @@
     <!-- Overlay and splash styles -->
     <style name="ThemeOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="ThemeSplash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenBackground">@android:color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_inset</item>
         <item name="windowSplashScreenAnimationDuration">500</item>
     </style>

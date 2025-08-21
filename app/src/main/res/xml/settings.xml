@@ -113,16 +113,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory>
-        <ListPreference
-            app:defaultValue="@string/theme_default"
-            app:entries="@array/theme_array"
-            app:entryValues="@array/theme_index_array"
-            app:icon="@drawable/ic_color_lens"
-            app:key="@string/theme_key"
-            app:persistent="true"
-            app:summary="@string/theme_summary"
-            app:useSimpleSummaryProvider="true"
-            app:title="@string/theme_title" />
+<!--        <ListPreference-->
+<!--            app:defaultValue="@string/theme_default"-->
+<!--            app:entries="@array/theme_array"-->
+<!--            app:entryValues="@array/theme_index_array"-->
+<!--            app:icon="@drawable/ic_color_lens"-->
+<!--            app:key="@string/theme_key"-->
+<!--            app:persistent="true"-->
+<!--            app:summary="@string/theme_summary"-->
+<!--            app:useSimpleSummaryProvider="true"-->
+<!--            app:title="@string/theme_title" />-->
 
         <androidx.preference.SwitchPreferenceCompat
             app:defaultValue="@bool/wifi_off_on_exit_default"

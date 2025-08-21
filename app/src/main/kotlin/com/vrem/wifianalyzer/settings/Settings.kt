@@ -106,7 +106,9 @@ class Settings(
     fun keepScreenOn(): Boolean =
         repository.boolean(R.string.keep_screen_on_key, repository.resourceBoolean(R.bool.keep_screen_on_default))
 
-    fun themeStyle(): ThemeStyle = settingsFind(ThemeStyle.entries, R.string.theme_key, ThemeStyle.DARK)
+    // Always light theme
+    fun themeStyle(): ThemeStyle = settingsFind(ThemeStyle.entries, R.string.theme_key, ThemeStyle.LIGHT)
+//    fun themeStyle(): ThemeStyle = settingsFind(ThemeStyle.entries, R.string.theme_key, ThemeStyle.DARK)
 
     fun selectedMenu(): NavigationMenu =
         settingsFind(NavigationMenu.entries, R.string.selected_menu_key, NavigationMenu.ACCESS_POINTS)

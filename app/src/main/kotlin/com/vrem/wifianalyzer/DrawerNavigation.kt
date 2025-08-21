@@ -20,6 +20,7 @@ package com.vrem.wifianalyzer
 import android.content.res.Configuration
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.vrem.annotation.OpenClass
 
@@ -39,6 +40,7 @@ class DrawerNavigation(
         actionBarDrawerToggle = createDrawerToggle(drawer)
         drawer.addDrawerListener(actionBarDrawerToggle)
         syncState()
+        actionBarDrawerToggle.drawerArrowDrawable.color = ContextCompat.getColor(mainActivity, R.color.regular)
     }
 
     fun createDrawerToggle(drawer: DrawerLayout): ActionBarDrawerToggle =

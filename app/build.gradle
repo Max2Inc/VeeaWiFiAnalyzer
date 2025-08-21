@@ -70,7 +70,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.vrem.wifianalyzer"
+        applicationId = "com.veea.wifianalyzer"
         minSdkVersion 24
         targetSdkVersion 35
         versionCode
